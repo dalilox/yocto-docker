@@ -7,7 +7,9 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <!--remote fetch="https://git.yoctoproject.org/meta-raspberrypi"  name="raspberrypi"-->
 
-  <project remote="yocto" revision="0275e68b0576cdefc19718e4b1977044f9f43f48" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="0275e68b0576cdefc19718e4b1977044f9f43f48" name="poky" path="sources/poky">
+	<linkfile dest="oe-init-build-env" src="oe-init-build-env"/>
+  </project>
 
   <project remote="oe" revision="aad5b3d070cd8c58828b0975cf861d8ebc90f460" name="meta-openembedded" path="sources/meta-openembedded"/>
 

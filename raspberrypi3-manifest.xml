@@ -5,11 +5,11 @@
 
   <remote fetch="https://git.yoctoproject.org" name="yocto"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
-  <remote fetch="https://git.yoctoproject.org/meta-raspberrypi"  name="raspberrypi"/>
+  <!--remote fetch="https://git.yoctoproject.org/meta-raspberrypi"  name="raspberrypi"-->
 
   <project remote="yocto" revision="0275e68b0576cdefc19718e4b1977044f9f43f48" name="poky" path="sources/poky"/>
 
   <project remote="oe" revision="aad5b3d070cd8c58828b0975cf861d8ebc90f460" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="raspberrypi" revision="2081e1bb9a44025db7297bfd5d024977d42191ed" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
+  <project remote="yocto" revision="2081e1bb9a44025db7297bfd5d024977d42191ed" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
 </manifest>
